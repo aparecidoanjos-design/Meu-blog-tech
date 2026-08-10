@@ -1,0 +1,80 @@
+/* Configuração geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+header {
+    background: linear-gradient(90deg, #6a00ff, #008cff);
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* Área principal */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main > p:first-child {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #dddddd;
+}
+
+/* Cartão do post */
+
+.post {
+    background-color: #151515;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(106, 0, 255, 0.25);
+    border: 1px solid #6a00ff;
+}
+
+.post h2 {
+    color: #8c52ff;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.post p {
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+/* Nome do autor */
+
+.autor {
+    margin-top: 25px;
+    color: white;
+}
+
+.autor strong {
+    color: #8c52ff;
+}
